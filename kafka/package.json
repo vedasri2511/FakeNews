@@ -1,0 +1,15 @@
+{
+  "name": "kafka-news-producer",
+  "version": "1.0.0",
+  "description": "Kafka news producer using NewsAPI",
+  "main": "producer.js",
+  "scripts": {
+    "start": "node producer.js"
+  },
+  "dependencies": {
+    "kafkajs": "^2.0.0",
+    "axios": "^1.0.0",
+    "dotenv": "^16.0.0",
+    "md5": "^2.3.0"
+  }
+}
