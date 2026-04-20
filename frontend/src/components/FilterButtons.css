@@ -1,0 +1,35 @@
+.filter-buttons {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.filter-btn {
+  padding: 8px 16px;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  background: white;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.filter-btn:hover {
+  background: #f5f5f5;
+}
+
+.filter-btn.active-all {
+  border-color: #378ADD;
+  color: #378ADD;
+}
+
+.filter-btn.active-fake {
+  border-color: #E24B4A;
+  color: #E24B4A;
+}
+
+.filter-btn.active-real {
+  border-color: #639922;
+  color: #639922;
+}
